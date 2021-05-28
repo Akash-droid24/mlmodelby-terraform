@@ -34,7 +34,8 @@ print("""
            Press Y for yes 
            Press N for no
       """)
-
+print("\n")
+print("ENTER YOUR CHOICE: \n")
 choice = input()
 
 if "Y" in choice:
@@ -43,6 +44,6 @@ if "Y" in choice:
   print("Your model has been saved")
   
 if "N" in choice:
-  break
+      print("OK BYE")
   
 
