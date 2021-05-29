@@ -40,7 +40,7 @@ choice = input()
 
 if "Y" in choice:
   import joblib
-  joblib.dump(model, 'model1.pk1')
+  joblib.dump(mind, 'model1.pk1')
   print("Your model has been saved")
   
 if "N" in choice:
